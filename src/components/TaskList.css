@@ -1,0 +1,47 @@
+.task-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;  
+  flex-direction: column;
+  min-width: 60rem;
+  min-height: 25rem;  
+  background-Color: #cacfd2;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.4);
+
+  ul {
+    display: flex;
+    min-width: 100%;
+    min-height: 60%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0px;        
+    
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      width: 10rem;
+      height: 10rem;      
+      margin: 2%;    
+      background-Color: yellow;  
+      border-radius: 2px;
+      box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+
+      .delete-task {
+        border: 0px;
+        background-color: '#fef9e7';
+        width: 9rem;
+        height: 1rem;         
+      }       
+    }
+
+    li {
+        list-style-type: none;
+    }
+  }
+}
